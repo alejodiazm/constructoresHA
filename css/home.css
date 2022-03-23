@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+html {
+    font-size: 62.5%;
+}
+
+nav {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    background-color: #3b6a94;
+    border-bottom: 2px #c28b02 solid;
+    color: #c28b02;
+    display: flex;    
+    justify-content: center;
+    justify-items: center;
+    font-size: 1.7rem;
+    font-weight: 900;
+    min-width: 320px;
+}
+
+nav .nav-bar-menu {
+    margin: 0;
+    padding: 0;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    justify-items: baseline;
+    margin-left: 20px;
+}
+
+nav .nav-bar-menu p {
+    margin-right: 20px;
+}
+
+.logo {
+    margin: 5px 5px 5px 10px;
+    padding: 0;
+    width: 20%;
+    align-content: center;
+}
+
+main {
+    margin: 0;
+    padding: 0;
+}
+
+.banner-home {
+    margin: 0;
+    padding: 0;
+    min-width: 320px;
+}
+
+.title-banner-home {
+    width: auto;
+    position: absolute;
+    background-color: #284763c7;
+    padding-left: 10px;
+    padding-right: 15px;
+    margin: 0px;
+    border-end-end-radius: 40px;
+    border-right: 4px #c28b02 solid;
+}
+
+.title-banner-home h1 {
+    width: auto;
+    font-size: 6.5vw;
+    font-family: serif;
+    color: #c28b02;
+    margin: 0;
+}
+
+.title-banner-home h4 {
+    width: auto;
+    font-size: 2.5vw;
+    font-family: serif;
+    font-style: italic;
+    color: white;
+    margin: 0;
+    padding-right: 15px;
+    text-align: right;
+}
+
+.card-section {
+    width: 100%;
+    height: 600px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    border: 5px #c28b02 solid;
+    
+}
+
+.card {
+    width: 20%;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+    position: static;
+    border: #3b6a94 2px solid;
+
+}
+
+.card-icon {
+    width: 20%;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    border: #c28b02 1px solid;
+    position: static;
+}
+
+.card-icon img {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    padding: 0;
+    min-width: 80px;
+    display: block;
+
+.card p {
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    border: #3b6a94 1px solid;
+    display: block;
+    position: absolute;
+}
