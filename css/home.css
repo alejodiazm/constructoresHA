@@ -1,7 +1,9 @@
 body {
+    width: 100%;
     margin: 0;
     padding: 0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /*background-color: #284763;*/
 }
 
 html {
@@ -15,19 +17,20 @@ nav {
     padding: 0;
     background-color: #3b6a94;
     border-bottom: 2px #c28b02 solid;
-    color: #c28b02;
+    color: #cca647;
     display: flex;    
     justify-content: center;
     justify-items: center;
     font-size: 1.7rem;
     font-weight: 900;
     min-width: 320px;
+    position: static;
 }
 
 nav .nav-bar-menu {
     margin: 0;
     padding: 0;
-    width: 80%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -42,7 +45,7 @@ nav .nav-bar-menu p {
 .logo {
     margin: 5px 5px 5px 10px;
     padding: 0;
-    width: 20%;
+    width: 100%;
     align-content: center;
 }
 
@@ -55,6 +58,7 @@ main {
     margin: 0;
     padding: 0;
     min-width: 320px;
+    height: auto;
 }
 
 .title-banner-home {
@@ -74,6 +78,7 @@ main {
     font-family: serif;
     color: #c28b02;
     margin: 0;
+    text-shadow: 100px 100px 100px 100px red ;
 }
 
 .title-banner-home h4 {
@@ -89,49 +94,55 @@ main {
 
 .card-section {
     width: 100%;
-    height: 600px;
-    margin: 0;
-    padding: 0;
+    height: auto;
+    padding-top: 70px;
+    padding-bottom: 70px;
     display: flex;
-    justify-content: space-around;
-    justify-items: center;
-    border: 5px #c28b02 solid;
-    
+    justify-content: center;
 }
 
 .card {
     width: 20%;
-    height: 300px;
-    margin: 0;
+    height: auto;
+    margin: 5% 10px 5% 10px;
     padding: 0;
     position: static;
-    border: #3b6a94 2px solid;
+    align-content: space-between;
+    max-width: 300px;
 
 }
 
 .card-icon {
-    width: 20%;
-    position: absolute;
+    width: 70%;
     margin: 0;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 5vh;
     padding: 0;
-    border: #c28b02 1px solid;
     position: static;
 }
 
 .card-icon img {
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 5%;
+    width: 100%;
+    margin:0;
     padding: 0;
-    min-width: 80px;
     display: block;
+    min-width: 10vw;
+}
 
 .card p {
-    height: 50px;
+    width: 100%;
+    height: auto;
     margin: 0;
+    margin-top: 25%;
     padding: 0;
-    border: #3b6a94 1px solid;
-    display: block;
-    position: absolute;
+    display: flex;
+    position: static;
+    font-size: 1.8vw;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    color: #2a4762;
+    min-width: 10vw;
+    text-size-adjust: initial;
 }
